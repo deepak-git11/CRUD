@@ -6,7 +6,6 @@ body{
 main{
     display: flex;
     flex-direction: column;
-    
     justify-content: center;
 
 }
@@ -15,21 +14,26 @@ form{
     border-radius: 10px;
     padding: 10px;
     width: 50%;
-    text-align: center;
-    justify-content: center;    
+    text-align: center; 
     margin-left: auto;
     margin-right: auto;
+
 }
 #welcome{
     margin-top: 0;
     border-bottom: 1px solid black;
 }
 label,input{
+    display: inline-block;
+    width: 200px;
     margin-bottom: 20px;
 }
 input{
     height: 20px;
     border-radius: 5px;
+}
+label{
+    text-align: right;
 }
 a{
     color: rgb(238, 255, 0);
@@ -56,13 +60,15 @@ h5{
     text-align: center;
 }
 .boxx{
-    margin-left: auto;
-    margin-right: auto;
-    border:1px solid black;
-    padding: 5px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    box-shadow: 10px 10px 10px black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.boxx > div{
     text-align: center;
-    width: 80%;
+    border: 1px solid black;
+    width:50%;
+    margin:10px;
+   
 }

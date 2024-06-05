@@ -38,14 +38,14 @@ session_start();
 
 
    <main>
-        <div>
+        <div class="boxx">
            
-          <div class="boxx" > <p> ID : <span> <?php  echo $id; ?> </span> </p>   </div>
-          <div class="boxx" > <p> Name : <span> <?php  echo $un; ?> </span> </p>   </div>
-          <div class="boxx" > <p> Email : <span> <?php  echo $em; ?> </span> </p>   </div>
-          <div class="boxx" > <p> Role : <span> <?php  echo $ro; ?> </span> </p>   </div>
-          <div class="boxx" > <p> Phone : <span> <?php  echo $ph; ?> </span> </p>   </div>
-          <div class="boxx" > <p> Address : <span> <?php  echo $add; ?> </span> </p>   </div>
+          <div > <p> ID : <span> <?php  echo $id; ?> </span> </p>   </div>
+          <div > <p> Name : <span> <?php  echo $un; ?> </span> </p>   </div>
+          <div > <p> Email : <span> <?php  echo $em; ?> </span> </p>   </div>
+          <div > <p> Role : <span> <?php  echo $ro; ?> </span> </p>   </div>
+          <div > <p> Phone : <span> <?php  echo $ph; ?> </span> </p>   </div>
+          <div > <p> Address : <span> <?php  echo $add; ?> </span> </p>   </div>
 
         </div>
         
